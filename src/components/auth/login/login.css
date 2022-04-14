@@ -1,0 +1,40 @@
+.formulario__container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.formulario__form{
+    display: flex;
+    padding: 2rem;
+    width: 95%;
+    max-width: 450px;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px 2px lightgray;
+}
+.formulario__form > h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.formulario__info{
+    display: flex;
+    flex-direction: column;
+}
+.formulario__info > input {
+    padding: 0.5rem;
+   margin-bottom: 1rem;
+}
+.formulario__buttonLogin > button{
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(73, 73, 85);
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+    width: 100%;
+    margin-top: 2rem;
+}
+.formulario__buttonLogin > button:hover{
+    background-color: rgb(103, 103, 122);
+}

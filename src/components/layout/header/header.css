@@ -1,0 +1,36 @@
+.header__Container{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__title{
+    flex-basis: 60%;
+}
+.header__navegacion{
+
+}
+.header__navegacion > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header__navegacion > ul > li {
+    padding: 1rem;
+    cursor: pointer;  
+}
+
+.header__session > button{
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(73, 73, 85);
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.header__session > button:hover{
+    background-color: rgb(103, 103, 122);
+}
